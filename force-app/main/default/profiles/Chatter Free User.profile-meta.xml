@@ -315,6 +315,9 @@
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Feature001__c-Feature001 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>FeedItem-Feed Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
