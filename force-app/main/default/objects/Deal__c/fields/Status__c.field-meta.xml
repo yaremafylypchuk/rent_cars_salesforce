@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>(Open, Won, Lost) Status of rent.
+Open (DEFAULT) - there is a cliend who called and asked for a car. Car was reserved but no money paid yet.
+Won - deal was successfull, money paid, car rent.
+Lost - client refused to pay or cancelled the order.</description>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open</fullName>
+                <default>true</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Won</fullName>
+                <default>false</default>
+                <label>Won</label>
+            </value>
+            <value>
+                <fullName>Lost</fullName>
+                <default>false</default>
+                <label>Lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

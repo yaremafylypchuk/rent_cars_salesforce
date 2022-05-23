@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Car__c</fullName>
+    <externalId>false</externalId>
+    <label>Car</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Car__c.Is_Valid_For_Rent__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Car__c</referenceTo>
+    <relationshipLabel>Deals</relationshipLabel>
+    <relationshipName>Deals</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
